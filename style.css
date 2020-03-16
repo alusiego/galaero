@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(4, 42, 79);
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+.header{
+    display: flex;
+  
+  
+}
+  .header div{
+  
+      padding: 10px;
+      position: fixed;
+     
+     
+    
+   
+  }
+
+ 
+
+  .logo{
+      flex: 1;
+      color: white;
+      top: 15;
+      right: 68rem;
+    
+  }
+  .navbar {
+    
+      flex: 2;
+
+      top: 15;
+      right: 5rem;
+     
+
+  }
+  .navbar ul{
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+      width: 20rem;
+      color: white;
+      margin-left:20rem ;
+
+      text-decoration: none;
+      
+    
+
+  }
+  .navbar ul li{
+      list-style-type: none;
+      text-decoration: none;
+      
+
+  }
+  .container{
+      display: flex;
+      
+  }
+
+  .container  {
+    
+     
+      height: 99.5vh;
+     
+  }
+.form1{
+    flex: 1;
+}
+.background{
+    flex: 1.5;
+    background-image: url(/sample.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+.form1 p{
+    color: white;
+    padding: 8.5rem 4rem 1rem 4rem;
+}
+
+.form1 .input-form {
+    
+padding:0rem 4rem 1rem 4rem;
+
+
+
+}
+.input-form input{
+    width: 19rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border-radius: 12px;
+    color: white;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+   
+}
+
+.input-checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    
+    
+}
+.checker
+{
+   flex: 1;
+   height: 200%;
+  
+}
+.check-p{
+    height: 500%;
+   flex: 1;
+   
+
+}
+.checker{
+    color: white;
+}
+ a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color: white;
+}
+.login-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    
+}
+.but-main{
+    padding-bottom: 0.5rem;
+}
+ .but-main button{
+    border:  rgb(241, 202, 125);
+    padding-bottom: rem;
+    width: 22rem;
+    height: 3.5rem;
+    border-radius: 12px;
+    background-color: rgb(241, 202, 125);
+ }
+ 
+ 
+ 
+ 
+ .but-text{
+     color: white;
+ }
+  .but-text a {
+     color: white;
+     text-decoration: underline;
+ }
+ ::placeholder{
+     color: rgba(201, 201, 196, 0.842);
+ }
+
+
